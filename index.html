@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Web Visualization Challenge Homework - MOSHER</title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="body">
+  <div class="container-fullwidth">
+      <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #e3f2fd;">
+          <a class="navbar-brand" style="color: #2A25CB;" href="index.html">
+            Latitude & Weather Conditions
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="nav navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a class="nav-link" style="color: gray;" href="#">Plots <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" style="color: gray;" href="#">Comparison</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" style="color: gray;" href="#">Data</a>
+              </li>
+            </ul>
+          </div>
+      </nav>
+      <br>
+      <br>
+      <div class="row">
+        <div class="col-md-7">
+          <div class="description">
+            <div class="description_title">
+              <h2>Explanation of the Project</h2>
+            </div>
+            <br>
+            <div class="description_body">
+              <img src="Resources/images/temp_based_on_lat_MOSHER.png" width="275" height="175" alt="Temp and Lat" class="descrip_image">
+              <p>The purpose of this project was to determine weather trends correlated to latitude.  We pulled weather data for 500 randomly selected cities from the OpenWeatherMap API.</p>
+              <p>After some data cleaning, we used Matplotlib to create plots comparing a measurement of weather to latitude (temperature, cloudiness, wind speed, and humidity).  This site provides the source data, the graphs, and descriptions of trends seen in the data.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-5">
+          <div class="graph_links">
+            <div class="graphs_title">
+              <h2>Graphs</h2>
+            </div>
+            
+            <div class="row">
+              <div class="col-md-6">
+                <a href="temp.html">
+                  <img src="Resources/images/temp_based_on_lat_MOSHER.png" alt="Temp and Lat" class="image_link">
+                </a>
+              </div>
+              <div class="col-md-6">
+                <a href="humid.html">
+                  <img src="Resources/images/humidity_based_on_lat_MOSHER.png" alt="Humid and Lat" class="image_link">
+                </a>
+              </div>
+            </div>
+            <br>
+            <div class="row">
+              <div class="col-md-6">
+                <a href="cloud.html">
+                    <img src="Resources/images/cloudiness_based_on_lat_MOSHER.png" alt="Cloud and Lat" class="image_link">
+                  </a>
+              </div>
+              <div class="col-md-6">
+                <a href="">
+                  <img src="Resources/images/wind_speed_based_on_lat_MOSHER.png" alt="Wind and Lat" class="image_link">
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  </div>
+</body>
+  
+</html>

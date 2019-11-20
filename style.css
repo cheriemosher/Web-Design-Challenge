@@ -1,0 +1,56 @@
+.body {
+    background-color: #F5F5F7;
+    font-family: "georgia"
+}
+.navbar-brand {
+    font-size: 20px;
+    text-align: center;
+    font-weight: 600;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.description {
+    background-color: #FEFEFE;
+    margin-left: 30px;
+    padding: 10px;
+}
+
+.description_title {
+    color: #2A25CB;
+}
+
+.descrip_image {
+    float: left;
+}
+
+p {
+    font-size: 18px;
+}
+
+.graph_links {
+    padding: 10px;
+    background-color: #FEFEFE;
+    margin-right: 30px;
+}
+
+.graphs_title {
+    color: #2A25CB;
+    padding-bottom: 5px;
+}
+
+.image_link {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 240px;
+}
+
+.base_image {
+    border: 2px solid black;
+    border-radius: 4px;
+    padding: 5px;
+    width: 240px;
+ }
