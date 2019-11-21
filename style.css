@@ -3,6 +3,10 @@
     font-family: "georgia"
 }
 
+.navbar {
+    background-color: #e3f2fd;
+}
+
 .table {
     background-color: #FEFEFE;
     margin-left: 80px;
@@ -60,6 +64,7 @@ p {
     padding-left: 25px;
     background-color: #FEFEFE;
     margin-right: 30px;
+    margin-left: 40px;
 }
 
 .graphs_title {
@@ -84,4 +89,10 @@ p {
  .full_image {
     margin-left: 80px;
     width: 65%;
+ }
+
+ @media (max-width: 700px) {
+    .navbar {
+      background: #ACF7A0;
+    }
  }
